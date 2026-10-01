@@ -129,18 +129,11 @@ export default function Home() {
         <section className="relative left-1/2 min-h-screen w-screen -translate-x-1/2 overflow-hidden bg-white">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/figma/hero-photo.png"
+              src="/figma/image-hero.png"
               alt="Thais Frasson em seu consultório"
-              width={3022}
-              height={2048}
+              fill
               priority
-              className="absolute max-w-none"
-              style={{
-                width: "132.92%",
-                height: "176.17%",
-                left: "-13.7%",
-                top: "-56.21%",
-              }}
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white from-50% to-transparent to-65%" />
           </div>
